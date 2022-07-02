@@ -6,7 +6,7 @@ Ce second projet web m'a apporté beaucoup de connaissance, j'ai d'ailleur élar
 
 Seul excuse : Cela fût un projet assez long à réaliser mais c'était durant la période du bac.
 
-Ce que je doit fait pour mes futurs projet web : 
+Ce que je doit faire pour mes futurs projet web : 
 
 - établir un plan solide réfléchit et penser à l'avance
 - prendre exemple sur des templates déja existant
