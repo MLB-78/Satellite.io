@@ -1,0 +1,183 @@
+*{
+
+    color: whitesmoke;
+    
+}
+
+body{
+    
+    background: url(saté.jpg) no-repeat fixed center/cover;
+    margin: 20px 60px;
+    padding: 10px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+h1{
+
+    text-align: center;
+
+}
+
+.QUI{
+    
+    margin: auto;
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    height: 400px;
+    border-radius: 20px;
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+
+    width: 90%;
+    max-width: 900px;
+    min-width: 550px;
+
+
+    height: 100%;
+    max-height: 900px;
+    min-height: 100px;
+
+    padding: 10px;
+    
+}
+
+.texte{
+
+    margin-left: 25px;
+    width: 70%;
+    max-width: 800px;
+    min-width: 300px;
+
+    font-size: max(1.05vw,12px);
+
+}
+
+
+
+
+img[src="Département.jpg"]{
+
+    background: no-repeat;
+    margin-right: 24px;
+    border-radius: 22px;
+
+    width: 90%;
+    min-width: 200px;
+   
+  
+}
+
+.deux{
+
+    display: flex;
+
+}
+
+.QUE{
+    
+    margin: auto;
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    height: 400px;
+    border-radius: 20px;
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+    
+
+    width: 90%;
+    max-width: 900px;
+    min-width: 550px;
+
+
+    height: 100%;
+    max-height: 900px;
+    min-height: 100px;
+
+    padding: 10px;
+    
+}
+
+
+.texte2{
+
+
+    margin: auto;
+    width: 70%;
+    max-width: 800px;
+    min-width: 300px;
+   
+    
+    font-size: max(1.05vw,12px);
+
+}
+
+
+img[src="collab.jpg"]{
+
+    background: no-repeat;
+    margin-right: 24px;
+    border-radius: 22px;
+
+    width: 90%;
+    min-width: 200px;
+   
+  
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media all and (max-width: 700px) {
+
+    h1{
+
+        margin: auto;
+
+    }
+
+    body{
+
+        margin: 0;
+
+
+    }
+
+    .QUI{
+
+        
+        flex-direction: column;
+        width: 50%;
+        min-width: 335px;
+        padding: 0px; 
+        
+
+
+    }
+
+    img[src="Département.jpg"]{
+
+        width: 55%;
+        min-width: none;
+        padding: 10px;
+        margin-left: 58.1px;
+       
+
+
+    }
+
+    .QUE{
+
+        
+        flex-direction: column;
+        width: 50%;
+        min-width: 335px;
+        padding: 0px; 
+        
+
+
+    }
+    
+}
+

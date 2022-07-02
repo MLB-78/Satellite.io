@@ -1,0 +1,69 @@
+SATELLITE : "Un site avec des instru (:"
+
+
+
+
+Choisir une Icône ou pas
+
+Un arrière plan imagé en haute définition ou un dégradée de couleur 
+
+Créer une barre de navigation 
+
+Choisir un logo pour la barre de navigation ou pas
+
+Créer les rubriques suivantes :
+
+- kickage
+- mélo
+- afro
+...
+
+Chaque rubrique nous mènera à une autre page dans le site, dans lesquelles les instru figureront.
+
+Empiler les sons les uns à la suite des autres, avec toujours le titre à coté
+
+
+Créer une div class avec les instru du moment (maximum 3) :
+
+Un pied de page de couleur  avec :
+
+- informations personnelle .
+- En savoir plus sur l'histoire du site
+- A propos de nous 
+- tarif
+- Date de création
+- réseaux
+
+
+JS - Mettre une musique dans un site 
+
+SI tu cliques sur le bouton play 
+ALORS la musique se déclenche 
+
+SI tu cliques sur le bouton pause
+ALORS la musique se stop
+
+
+
+-----------------------------------------------------------------------------
+
+   N :
+
+mettre à jour le pied de page   x   
+
+Corriger l'erreur de la navbar x
+
+mettre mon profil linkedin x
+
+faire fonctionner les beat du moment x
+
+mettre à jour la rubrique afro x
+
+mettre à jours nos formules
+
+
+
+
+
+
+

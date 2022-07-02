@@ -1,0 +1,481 @@
+*{
+    
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-decoration: none;
+    
+}
+
+
+/* DEBUT NAVBAR */
+
+nav{
+    
+    color: whitesmoke;
+    margin-left: 0px ;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: max(3vw,25px);
+    align-items: center;
+    height: 17px;
+    width: 100%;
+    
+    
+}
+
+a[href="Satellite.html"]{
+
+    background:-webkit-linear-gradient(top, rgb(23, 41, 142) 30%, #49279f 75%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:transparent;
+    
+}
+
+.Titre{
+    
+    margin-left: 50px;
+    font-size: max(2vw,42.5px);
+    padding: 22px;
+    
+    
+}
+
+hr{
+    
+    width: 78%;
+    background-color: whitesmoke;
+    
+}
+
+
+.Rubriques{
+    
+    display: flex;
+    margin-left: auto;
+    margin-right: 23px;
+    font-size: 20px;
+    padding: 25px;
+    font-size: max(1vw,15.8px);
+    min-width: 300px;
+    padding: 22px;
+    
+}
+
+
+.drill:hover{
+    
+    transform: scale(1.15);
+    transition: 0.6s;
+    
+    
+    background:-webkit-linear-gradient(top, rgb(77, 9, 137) 40%, #c926deb4 65%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:transparent;
+    
+}
+
+.ost:hover{
+    
+    transform: scale(1.15);
+    transition: 0.6s;
+    
+    
+    background:-webkit-linear-gradient(top, rgb(77, 9, 137) 40%, #c926deb4 65%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:transparent;
+    
+}
+
+.afro:hover{
+    
+    transform: scale(1.15);
+    transition: 0.6s;
+    
+    
+    background:-webkit-linear-gradient(top, rgb(77, 9, 137) 40%, #c926deb4 65%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:transparent;
+    
+}
+
+
+.kickage:hover{
+    
+    transform: scale(1.15);
+    transition: 0.6s;
+    
+    
+    background:-webkit-linear-gradient(top, rgb(77, 9, 137) 40%, #c926deb4 65%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:transparent;
+    
+}
+
+
+.mélo:hover{
+    
+    transform: scale(1.15);
+    transition: 0.6s;
+    
+    
+    background:-webkit-linear-gradient(top, rgb(77, 9, 137) 40%, #c926deb4 65%);
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:transparent;
+    
+}
+
+
+/* FIN NAVBAR */
+
+/* DEBUT DU BODY */
+
+
+.texteMilieu{
+    
+    text-align: center;
+    align-items: center;
+    font-size: 15.4px;
+    font-family: monospace;
+    padding: 65px;    
+    
+}
+
+
+
+body{
+    
+    background: url(saté.jpg) no-repeat fixed center/cover;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+h2{
+    
+    text-align: center;
+    
+}
+
+.InstruDuMoment{
+    
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    width: 30%;
+    min-width: 400px;
+    margin: auto;
+    height: 350px;
+    padding: 25px;
+    border-radius: 25px;
+    border: solid;
+
+}
+
+.UDT{
+
+    margin-left: 40px;
+    
+}
+
+.Une{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 35px;
+
+}
+
+
+.Deux{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 35px;
+
+}
+
+.Trois{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 35px;
+
+}
+
+img[src="Logo Play Blanc.png"]{
+
+    border: solid;
+    border-radius: 60px;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+img[src="Pause Blanc.png"]{
+
+    border: solid;
+    border-radius: 60px;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+img[src="Logo Play Blanc.png"]:hover{
+
+    transform: scale(1.1);
+
+}
+
+
+.Insta{
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+img[src="Logo Insta.png"]:hover{
+
+    transform: scale(1.2);
+ 
+}
+
+.Snap{
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.Linkedin{
+
+    display: flex;
+    align-items: center;
+    
+}
+
+img[src="Logo Linkedin.png"]:hover{
+
+    transform: scale(1.1);
+
+}
+
+/* FIN DU BODY */
+
+/* DEBUT DU BWWWAAAAAAAAAAAZZZ */
+
+.ImageBwaz{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+img[src="Pic de beatmaking.jpg"]{
+
+    width: 90%;
+    min-width: 250px;
+    border-radius: 9px;
+    box-shadow:0px 0px 40px 0 whitesmoke;
+   
+}
+
+/* FIN DU BWWWAAAAAAAAAAAZZZ */
+
+/* DEBUT DU BOUTON "DIFFUSE LA" */
+
+.B{
+
+    display: flex;
+
+}
+
+button{
+
+    color: whitesmoke;
+    background-color: transparent;
+    height: 38px;
+    width: 40%;
+    min-width: 135px;
+    border: solid;
+    border-radius: 7px;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+
+
+
+
+button:hover{
+
+    font-size: 15.4px;
+    transform: scale(1.02);
+    color: rgb(233, 20, 233);
+    transition: 0.7s;
+
+}
+
+
+
+/* FIN DU BOUTON "DIFFUSE LA" */
+
+/* IMPORTATION JS */
+
+.aramdan{
+
+    width: 90%;
+    min-width: 250px;
+    border-radius: 9px;
+    box-shadow:0px 0px 40px 0 whitesmoke;
+    
+    transform: scale(1.01);
+    transition: 1.6s;
+    transform: rotate(8deg);
+    
+}
+
+/* IMPORTATION JS */
+
+.bwaz2{
+
+    width: 80%;
+    max-width: 650px;
+    margin: auto;
+
+}
+
+
+/* FIN DE L'IMPORTATION JS*/
+/* DEBUT PIED DE PAGE  */
+
+.pied{
+
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+    height: 160px;
+    min-height: 195px;
+    border-radius: 9px;
+    border: solid;
+    padding : 28px;
+    height: 180px;
+    text-align: center;
+    min-width: 450px;
+
+}
+
+
+footer{
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    
+}
+
+
+.ContactDev{
+
+    margin-left: 25px;
+    padding: 7px;
+    
+}
+
+
+.Réseaux{
+
+    padding: 10px;
+
+}
+
+
+.renseignements{
+
+    padding: 4px;
+
+}
+
+x:hover{
+
+    color: rgb(233, 20, 233);
+    transition: 0.72s;
+
+}
+
+
+.création{
+
+    margin-right: 25px ;
+    padding: 10px;
+
+}
+
+
+/* FIN PIED DE PAGE */
+
+
+@media all and (max-width: 840px){
+
+
+    nav{
+
+        flex-direction: column;
+        margin: auto;
+
+    }
+
+
+    .Rubriques{
+
+        margin: auto;
+        font-size: max(0.5vw,15px);
+
+    }
+
+    .pied{
+
+        height: 235px;
+        
+    }
+
+    .B{
+ 
+        flex-direction: column;
+    
+    }
+
+        
+
+    
+}
+
+
+
+@media all{
+
+
+    body{
+
+        margin: 35px;
+        padding: 10px;
+
+    }
+    
+    
+}
+

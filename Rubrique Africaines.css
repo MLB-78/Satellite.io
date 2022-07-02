@@ -1,0 +1,260 @@
+*{
+
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+}
+
+h1{
+
+    text-align: center;
+    font-size: max(2vw,30px);
+    
+}
+
+/* CORPS DE LA PAGE */
+
+h4{
+
+    text-align: center;
+
+}
+
+.Images1{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    width: 60%;
+    margin: auto;
+    min-width: 600px;
+
+    
+
+}
+
+img[src="Manu_Dib.jpg"]{
+
+    width: 110%;
+    border-radius: 20px;
+    box-shadow: #e0bc93 0px 0px 22px;
+    padding: 6px;
+
+}
+
+
+img[src="Manu_Dib.jpg"]:hover{
+
+    transform: scale(1.02);
+
+}
+
+
+img[src="Fally.jpg"]{
+
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: #e0bc93 0px 0px 22px;
+    padding: 6.8px;
+
+    
+}
+
+
+img[src="Fally.jpg"]:hover{
+
+    transform: scale(1.02);
+
+    
+}
+
+body{
+
+    background: url(saté.jpg) no-repeat fixed center/cover;
+    margin: 45px;
+    
+}
+
+/* PREMIERE PROD */
+
+.arriere{
+
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgb(249, 136, 15) 0%, rgb(223, 10, 46) 97.5% );
+    border-radius: 25px;
+    border: solid;
+    height: 340px;
+    width: 30%;
+    min-width: 300px;
+    margin: auto;
+    padding: 25px;
+
+}
+
+.ALL{
+
+    margin: 35px;
+
+}
+
+p{
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+
+}
+
+
+.Une{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+
+}
+
+
+.Deux{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+
+}
+
+.Trois{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+
+}
+
+img[src="Logo Play Blanc.png"]{
+
+    border: solid;
+    border-radius: 60px;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+img[src="Pause Blanc.png"]{
+
+    border: solid;
+    border-radius: 60px;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+img[src="Logo Play Blanc.png"]:hover{
+
+    transform: scale(1.1);
+
+}
+
+.pays{
+
+    text-align: center;
+    position: relative;
+    
+
+}
+
+.tesy{
+
+    position: absolute;
+    top: 76%;
+    left: 55%;
+    
+
+}
+
+
+
+img[src="paysage_typique.jpg"]{
+
+    width: 60%;
+    border-radius: 20px;
+    padding: 6px;
+    box-shadow: #e0bc93 0px 0px 22px;
+    
+
+}
+
+
+/* MEDIA QUERIESZ */
+
+
+@media screen and (max-width:400px) {
+
+    
+
+    h4{
+
+        text-align: center;
+        margin: auto;
+    
+    }
+
+    .Images1{
+
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+      
+        width: 60%;
+        margin: auto;
+        
+    
+    }
+
+    .arriere{
+
+        padding: 12px;
+        width: 60%;
+        min-width: 400px;
+
+    }
+
+   
+  
+        
+    img[src="Manu_Dib.jpg"]{
+
+        width: 37%;
+        margin-left: 26px;
+
+    }
+
+
+    img[src="Fally.jpg"]{
+
+        width: 37%;
+        margin-left: 26px;
+        
+        
+    }
+
+        
+    img[src="paysage_typique.jpg"]{
+
+        min-width: 350px;
+        border-radius: 20px;
+       
+        min-width: 300px;
+        
+        
+
+    }
+
+    
+}

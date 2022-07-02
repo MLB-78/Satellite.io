@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.42">
+    <link rel="shortcut icon" href="Icône satellite.webp">
+    <link rel="stylesheet" href="Rubrique Africaines.css">
+
+    <title>Satellite - Afro</title>
+    <h1>L'AfroPop</h1>
+
+</head>
+
+    <br><br>
+
+    <h4>
+
+        L'afropop est un terme parfois utilisé pour désigner la musique contemporaine de la pop africaine. 
+        Caractérisée par un mélange des danses et des sons entre la musique pop américaine et la musique africaine,
+        l'afropop ne se réfère pas à un style ou à un son musical spécifique, mais ce mot est utilisé comme un terme
+        général pour désigner la musique populaire africaine.
+
+    </h4>
+
+    <br><br>
+
+    <div class="Images1">
+
+        <div class="IOne">
+            <img src="Manu_Dib.jpg">
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+
+        <div class="ITwo">
+            <img src="Fally.jpg">
+        </div>
+        
+
+    </div>
+
+    <br><br>
+
+
+<body>
+
+        <br><br><br><br>
+
+
+    <div class="arriere"> 
+
+        <div class="ALL">
+
+            <p>Les Instru Afropop</p>
+
+            <br>
+            
+            <div class="Une">
+                
+                <div class="U1" title="Style de zik + Snap">
+                    
+                    bakalou_93 &nbsp;&nbsp;
+                    
+                </div>
+                
+                <div class="U2">
+
+                        <img src="Logo Play Blanc.png" height="28px" id="btn1">
+
+                        <audio id="Son1">
+
+                            <source src="instru_Ohplai .mp3" type="audio/mp3">
+
+                        </audio>
+                        
+                </div>
+
+            </div>
+
+
+            <br><br>
+
+            
+            <div class="Deux">
+
+                <div class="D1" title="Style de zik + Snap">
+
+                    Osko (77) &nbsp;&nbsp; 
+
+                </div>
+
+                <div class="D2">
+
+                    <img src="Logo Play Blanc.png" height="28px" id="btn2">
+
+                    <audio id="Son2">
+
+                        <source src="instru_guinéenne.mp3" type="audio/mp3">
+
+                    </audio>
+
+                </div>
+
+            </div>
+
+            
+            <br><br>
+
+            
+            <div class="Trois">
+
+                <div class="T1" title="">
+
+                    rimo_kilsh &nbsp;&nbsp;
+
+                </div>
+
+                <div class="T2">
+
+                    <img src="Logo Play Blanc.png" height="28px" id="btn3">
+
+                </div>
+
+                <audio id="Son3">
+
+                    <source src="Instru_RemaType.mp3" type="audio/mp3">
+
+                </audio>
+
+            </div>   
+                      
+        </div>
+
+    </div>
+          
+            <br><br><br><br><br><br>
+            
+
+            <div class="pays">
+
+                <img src="paysage_typique.jpg">
+
+                <div class="tesy">
+
+                   <h6>
+
+                       by tikenja
+                       
+                   </h6> 
+                
+                </div>
+                
+            </div>
+        
+        
+        <script>
+            
+                    
+        // <!-- DEBUT DU JAVASCRIPT -->
+                    
+
+    //  ----------- ELEMENT MUSIQUE 1 -----------------
+
+        const zik1 = document.getElementById('Son1');
+        const btn1 = document.getElementById('btn1');
+
+    //  ----------- ELEMENT MUSIQUE 1 -----------------
+
+
+    //  ----------- ELEMENT MUSIQUE 2 -----------------
+
+        const zik2 = document.getElementById('Son2');
+        const btn2 = document.getElementById('btn2');
+
+     //  ----------- ELEMENT MUSIQUE 2 -----------------
+
+
+    //  ----------- ELEMENT MUSIQUE 3 -----------------
+
+        const zik3 = document.getElementById('Son3');
+        const btn3 = document.getElementById('btn3');
+
+    //  ----------- ELEMENT MUSIQUE 3 -----------------
+
+
+                    
+        btn1.addEventListener("click", () => {
+
+                
+                
+            if (zik1.paused) {
+                
+                zik1.play();
+                btn1.src = 'Pause Blanc.png';
+                
+            } else {
+                
+                zik1.pause();
+                btn1.src = 'Logo Play Blanc.png';
+                
+            }
+
+
+            ziak = () =>{
+
+                btn1.src = 'Logo Play Blanc.png';
+
+            }
+
+            setTimeout(ziak, 27000)
+
+
+
+        })
+
+
+        //  ----------- ELEMENT MUSIQUE 1 -----------------
+        //  ----------- ELEMENT MUSIQUE 2 -----------------
+
+
+        btn2.addEventListener('click', () => {
+
+            if (zik2.paused) {
+
+                zik2.play();
+                btn2.src = 'Pause Blanc.png';
+                
+            } else {
+
+                zik2.pause();
+                btn2.src = 'Logo Play Blanc.png';
+                
+            }
+
+
+            ziakDeux = () =>{
+
+                btn2.src = 'Logo Play Blanc.png';
+
+            }
+
+            setTimeout(ziakDeux, 37000)
+
+
+
+
+        })
+
+            //  ----------- ELEMENT MUSIQUE 2 -----------------
+            //  ----------- ELEMENT MUSIQUE 3 -----------------
+
+
+        btn3.addEventListener('click', () => {
+
+            if (zik3.paused) {
+
+                zik3.play();
+                btn3.src = "Pause Blanc.png";
+                
+            } else {
+
+                zik3.pause();
+                btn3.src = 'Logo Play Blanc.png';
+                
+            }
+
+            ziakTrois = () =>{
+
+                btn3.src = 'Logo Play Blanc.png';
+
+            }
+
+            setTimeout(ziakTrois, 48000)
+
+        })
+
+            //  ----------- ELEMENT MUSIQUE 3 -----------------
+
+
+
+
+
+
+
+
+
+
+
+
+        // <!--  FIN DU JAVASCRIPT  -->
+
+
+
+    </script>
+
+   
+</body>
+</html>
